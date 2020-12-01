@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 64px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
