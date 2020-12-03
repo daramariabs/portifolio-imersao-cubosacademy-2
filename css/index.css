@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: white;
     padding: 32px 64px;
 }
@@ -48,6 +49,11 @@ p {
     font-family: 'Open Sans', sans-serif; 
 }
 
+main {
+    display: flex;
+    padding: 40px 70px;
+}
+
 .profissao {
     font-size: 18px;
 }
@@ -56,13 +62,10 @@ p {
     color: rgba(0, 0, 0, 0.6);
 }
 
-main {
-    padding: 40px 70px;
-}
 
 .coluna-menor {
     margin-top: 40px;
-    width: 22%;
+    width: 23%;
 }
 
 .linha {
@@ -101,4 +104,14 @@ ul, ol {
 
 .formacao .linha {
     border-color: #ffc700;
+}
+
+.coluna-maior {
+    border: 2px solid black;
+    margin-left: 24px;
+}
+
+.habilidades h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
 }
