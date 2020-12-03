@@ -62,7 +62,7 @@ main {
 
 .coluna-menor {
     margin-top: 40px;
-    width: ;
+    width: 22%;
 }
 
 .linha {
@@ -84,6 +84,7 @@ main {
 
 .coluna-menor li {
     margin-top: 24px;
+    display: flex;
 }
 
 .conteudo {
