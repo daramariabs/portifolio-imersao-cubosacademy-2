@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -107,11 +108,59 @@ ul, ol {
 }
 
 .coluna-maior {
-    border: 2px solid black;
     margin-left: 24px;
 }
 
-.habilidades h2 {
-    font-size: 50px;
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+    font-size: 40px;
     margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+.habilidade {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 12px;
+    width: 288px;
+
+}
+
+.habilidade h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.habilidade p {
+    font-size: 16px;
+}
+
+.habilidade li {
+    margin-top: 32px;
+}
+
+.habilidade li:first-child {
+    margin-top: 0;
+}
+
+.progresso {
+    width: 100%;
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+    height: 4px;
+    margin-top: 8px;
+    background-color: #4200ff;
+}
+
+.incompleto {
+    opacity: 0.2;
 }
