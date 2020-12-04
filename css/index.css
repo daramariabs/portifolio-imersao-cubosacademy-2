@@ -164,3 +164,51 @@ ul, ol {
 .incompleto {
     opacity: 0.2;
 }
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    width: 392px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+.projeto h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.projeto p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.projeto img {
+    width: 100%;
+}
+
+.projeto a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4200ff;
+    color: white;
+    padding: 8px 24px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
+footer {
+    background-color: #14004d;
+    color: white;
+    padding: 57.6px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
